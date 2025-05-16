@@ -1,0 +1,91 @@
+ body {
+      font-family:Arial, Helvetica, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .calculator {
+      background: #afafaf;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      width: 380px;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      font-size: 24px;
+      font-weight: 600;
+      color: #000000;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      margin-top: 20px;
+      font-weight: 500;
+      color: #282626;
+    }
+
+    input[type="text"] {
+      width: 95%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ffffff;
+      border-radius: 8px;
+      transition: border-color 0.3s;
+    }
+
+    input[type="text"]:focus {
+      border-color: #3c96db;
+      outline: none;
+    }
+
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+      justify-content: center;
+    }
+
+    button {
+      padding: 10px 30px;
+      font-size: 20px;
+      background-color: #e88c03;
+      border: none;
+      border-radius:10px ;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #3c96db;
+      color:rgb(255, 255, 255)
+    }
+
+    button.clear {
+      background-color:  #000000;
+      color: white;
+    }
+button.percent{
+    background-color:  #000000;
+      color: white;
+}
+button.percent:hover{
+  background-color: #3c96db;
+      color:rgb(255, 255, 255)
+}
+    button.clear:hover {
+      background-color: #3c96db;
+      color:rgb(255, 255, 255)
+    }
+    
